@@ -40,3 +40,8 @@ h1{
 .text{
     color: blue;
 }
+.navbar{
+  background-color: var(--primaryColor)!important;
+  border-bottom: 1px solid gray
+}
+ 

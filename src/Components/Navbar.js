@@ -2,7 +2,7 @@ import React from 'react'
  import logo from './images/logo.jpg'
 // import { NavLink} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHome,faUser} from '@fortawesome/free-solid-svg-icons'
+import {faHome,faSign,faUser,} from '@fortawesome/free-solid-svg-icons'
 // import {Link} from 'react-router-dom'
 import './Navbar.css'
 function Navbar() {
@@ -37,7 +37,12 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
-            <a className="nav-link  " href="/login">Login</a>
+            <a className="nav-link" href="/about">
+              <span className="icon">
+                <FontAwesomeIcon icon={faSign} color="#4d4d4e" />
+              </span>
+              <span className="text">Aboutt</span>
+            </a>
           </li>
            
         </ul>
